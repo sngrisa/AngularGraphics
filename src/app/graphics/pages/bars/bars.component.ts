@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Directive } from '@angular/core';
 import { ChartOptions } from 'chart.js';
 
 @Component({
   selector: 'app-bars',
   templateUrl: './bars.component.html',
   styleUrls: ['./bars.component.scss'],
+  standalone: false,
+  imports:[]
 })
   
 export class BarsComponent {
